@@ -6,6 +6,10 @@
     <title>Uplift Founders</title>
     <link rel="stylesheet" href="./src/output.css">
     <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+
+    
+
 </head>
 <style>
     *{
@@ -14,17 +18,21 @@
     .bold-text,.medText{
         font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     }
+    .smallTxt{
+        font-size: large; 
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
 </style>
 <body class="bg-amber-100 overflow-x-hidden">
     <main class="h-screen">
         <nav class="border-b-2 h-[9%] w-screen flex justify-between px-40">
             <div class="icon">
-                <img src="https://static.vecteezy.com/system/resources/previews/038/516/357/non_2x/ai-generated-eagle-logo-design-in-black-style-on-transparant-background-png.png" alt="icon" class="h-[100%] w-full">
+                <img src="https://upliftfounders.com/assets/images/logo.svg" alt="icon" class="h-[100%] w-full">
             </div>
-            <div class="menu flex items-center justify-evenly w-1/2">
-                <div class="menu_item">WHAT FOUNDERS SAY</div>
-                <div class="menu_item">MANIFESTO</div>
-                <div class="menu_item">ABOUT US</div>
+            <div class="menu flex items-center justify-evenly w-1/2 cursor-pointer ">
+                <div class="menu_item hover:underline">WHAT FOUNDERS SAY</div>
+                <div class="menu_item hover:underline">MANIFESTO</div>
+                <div class="menu_item hover:underline">ABOUT US</div>
                 <div class="menu_item rounded-2xl p-1.5 px-6 grid place-content-center bg-violet-600 text-white cursor-pointer" id="tell_us">TELL US ABOUT YOU</div>
             </div>
         </nav>
@@ -74,14 +82,14 @@
 
         </section>
 
-        <section class="flex p-40 justify-between">
+        <section class="flex px-40 py-20 justify-between">
             <div class="medText text-7xl w-xl">WE EMPOWER YOU TO BECOME THE FOUNDER YOUR COMPANY NEEDS TO SCALE FASTER
             </div>
 
             <div class="border-2 text-white bg-black h-95 w-110 flex flex-col gap-1.5">
                 <div class="h-[15%] text-center flex px-10 justify-between items-center text-2xl">
                     <p>Shaky Founders</p>
-                    <i>O</i>
+                    <i class="bi bi-toggle-off"></i>
                 </div>
                 <hr>
                 <div class="flex p-10 gap-3">
@@ -102,6 +110,199 @@
                 </div>
             </div>
         </section>
+
+        <section class="px-40 py-20 flex flex-col bg-amber-300 w-screen h-fit">
+            <div class="flex justify-between">
+                <p class="medText text-7xl text-wrap w-30 ">CORE BELIEF</p>
+
+                <P class="text-3xl text-wrap w-130 " style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif">Deep relationships <i>(Inner game)</i> coupled with bold aspirations for results <i>(Outer game)</i> are the foundation for lasting growth.</P>
+            </div>
+
+            <div class="flex mt-20 border-2 relative justify-center ">
+                <div class="flex flex-col py-15 px-10 ">
+                    <div class="flex gap-2 smallTxt">
+                        <i class="bi bi-heart"></i>
+                        <p>THE INNER GAME</p>
+                    </div>
+
+                    <p class="text-3xl text-wrap w-130 " style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif">How can we unlock your full potential?</p>
+
+                    <p class="my-3 smallTxt">
+                        Understanding you as a person
+                    </p>
+                    <ul class="list-disc pl-5 smallTxt" >
+
+                        <li>Understanding your founder psychology</li>
+                        <li>Observing decision patterns and tendencies</li>
+                        <li>Overcoming fears of failure</li>
+                        <li>Understanding team dynamics and strengths</li>
+                        <li>Identifying and mitigating blind spots</li>
+                        <li>Cultivaiting clarity (No BS)</li>
+                        <li>...</li>
+                    </ul>
+                </div>
+
+                <div class="circle absolute left-139 h-22 w-22 rounded-full -top-6 border-2 bg-amber-300">
+
+                    <div class="innerCir absolute border-2 rounded-full h-15 w-15 left-3 grid place-content-center bg-amber-300">
+
+                        <i class="bi bi-heart"></i>
+
+                    </div>
+
+                    <i class="bi bi-bullseye absolute top-15  left-9"></i>
+                </div>
+
+                <div class="border-l-2 py-15  px-10">
+                    <div class="flex gap-2 smallTxt">
+                        <i class="bi bi-bullseye"></i>
+                        <p>THE OUTER GAME</p>
+                    </div>
+
+                    <p class="text-3xl text-wrap w-100  " style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif">How can we grow the business?</p>
+
+                    <p class="smallTxt my-3">Understanding your business</p>
+                    <ul class="list-disc pl-7 smallTxt">
+                        <li>Identifying your core business model dynamics</li>
+                        <li>Defining a crystal-clear strategy (from vision to execution)</li>
+                        <li>Establishing efficient goal systems</li>
+                        <li>Create a fundraising storyline and related documents</li>
+                        <li>Identifying and mitigating blind spots</li>
+                        <li>Managing and motivating your team</li>
+                        <li>...</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="menu_item rounded-2xl grid place-content-center bg-violet-600 text-white cursor-pointer mt-5 p-1.5 px-6 w-[15rem] self-center" id="tell_us ">
+                TELL US ABOUT YOU
+            </div>
+        </section>
+
+        <section class="px-40 py-20 flex flex-col">
+            <div class=" flex justify-between">
+                <p class="medText text-7xl text-wrap w-40">WE'VE BEEN THROUGH IT ALL</p>
+                <div class="flex w-xl gap-5 justify-between">
+                <div class="text-center font-mono text-[1.2rem]">
+                    <img src="https://upliftfounders.com/media/pages/home/82abcb8be7-1733146806/yannick-frank-600x-q85.webp" class="">
+                    <p>YANNICK FRANK</p>
+                    <i class="bi bi-envelope border-2 rounded-full p-0.5 px-1 cursor-pointer"></i>
+                    <i class="bi bi-linkedin border-2 rounded-full p-0.5 px-1 cursor-pointer"></i>
+                </div>
+                <div class="text-center font-mono text-[1.2rem]">
+                    <img src="https://upliftfounders.com/media/pages/home/76a63e3269-1733146808/till-augner-600x-q85.webp" alt="">
+                    <p>TILL AUGNER</p>
+                    <i class="bi bi-envelope border-2 rounded-full p-0.5 px-1 cursor-pointer"></i>
+                    <i class="bi bi-linkedin border-2 rounded-full p-0.5 px-1 cursor-pointer"></i>
+                </div>
+                </div>
+            </div>
+            
+            <div class="threeBox flex justify-between mt-10 h-70 smallTxt">
+                <div class="box">
+                    <i class="bi bi-emoji-smile-fill text-xl"></i>
+                    <p class="text-3xl mb-3">Empathy</p>
+                    <p>We've built 10 businesses ourselves that mirror your journey.</p>
+                </div>
+                <div class="box">
+                    <i class="bi bi-award text-xl"></i>
+                    <p class="text-3xl mb-3">Experience</p>
+                    <p>Coached > 250 founders in 10 years.</p>
+                </div>
+                <div class="box">
+                    <i class="bi bi-telephone-inbound text-xl"></i>
+                    <p class="text-3xl mb-3">Availability</p>
+                    <p>Reach out anytime; we'll get back to you within hours.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="faqs px-40 flex justify-between smallTxt">
+            <p class="medText text-7xl">FAQS</p>
+            <div class="questions">
+                <div>
+                    <p>What's your approach and offer?</p>
+                    <i class="bi bi-plus-lg"></i>
+                </div>
+                <div>
+                    <p>Who do you mentor & coach?</p>
+                    <i class="bi bi-plus-lg"></i>
+                </div>
+                <div>
+                    <p>Why should I invest in professional coaching & mentoring?</p>
+                    <i class="bi bi-plus-lg"></i>
+                </div>
+                <div>
+                    <p>Do you coach online?</p>
+                    <i class="bi bi-plus-lg"></i>
+                </div>
+                <div>
+                    <p>How often do we meet?</p>
+                    <i class="bi bi-plus-lg"></i>
+                </div>
+                <div>
+                    <p>How long is a 1:1 coaching session?</p>
+                    <i class="bi bi-plus-lg"></i>
+                </div>
+                <div>
+                    <p>How do we schedule our sessions?</p>
+                    <i class="bi bi-plus-lg"></i>
+                </div>
+                <div class="last-quest">
+                    <p>How else do you help in between sessions?</p>
+                    <i class="bi bi-plus-lg"></i>
+                </div>
+            </div>
+        </section>
+
+        <section class="last-sec w-full bg-violet-600 mt-20 mb-20 px-40 py-20 flex flex-col justify-center items-center">
+            <img src="" alt="">
+            <p class="medText text-9xl text-center  text-white">READY <br> FOR AN UPLIFT?</p>
+
+            <p class="text-3xl text-wrap w-200 mt-4 text-white text-center" style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif">
+                We're on a mission to make <i>scaling</i> a company smoother by empowering founders to become <i>extraordinary</i> leaders.
+            </p>
+
+            <div class="menu_item rounded-2xl grid place-content-center bg-black text-white cursor-pointer mt-5 p-1.5 px-6 w-50" id="tell_us ">
+                TELL US ABOUT YOU
+            </div>
+
+            <img src="" alt="">
+
+        </section>
+
+        <footer>
+         <div class="border-b-2 flex justify-between items-center px-40 mb-8 pb-4">
+            <div class="flex items-center justify-between w-1/2 cursor-pointer">
+                <p>WHAT FOUNDERS SAY</p>
+                <p>MANIFESTO</p>
+                <p>ABOUT</p>
+            </div>
+            <div>
+                <i class="bi bi-envelope border-2 rounded-full p-0.5 px-1 cursor-pointer text-xl m-2"></i>
+                <i class="bi bi-linkedin border-2 rounded-full p-0.5 px-1 cursor-pointer text-xl m-2"></i>
+            </div>
+        </div>
+
+        <div class="last flex px-40  justify-between">
+            <div class="flex gap-2">
+                <i class="bi bi-c-circle"></i>
+                <p>2025 Uplift Founders</p>
+            </div>
+
+            <p class="medText text-center text-2xl m-2 leading-none relative h-25 w-40 p-0 ">
+                <img src="https://upliftfounders.com/assets/images/logo.svg" class="h-13 w-13 absolute -top-5 left-2.5">
+                PLIFT <br> FOUNDERS
+            </p>
+
+            <div class="flex justify-between gap-5 ">
+                <p>Import</p>
+                <p>Privacy</p>
+            </div>
+        </div>
+        </footer>
     </main>
+
+    
 </body>
 </html>
